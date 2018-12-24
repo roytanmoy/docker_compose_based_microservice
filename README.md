@@ -4,33 +4,32 @@
 
 ### Prerequisites
 
-A.) docker (1.6.0 or above)
-B.) docker-compose (1.3.1+)
-C.) python 2.7 or above
-D.) Linux VM
+A.) docker (1.6.0 or above)  
+B.) docker-compose (1.3.1+)  
+C.) python 2.7 or above  
+D.) Linux VM  
 
 
 ### Installing
 
-Create a parent directory flask_compose_microservice
+Create a parent directory flask_compose_microservice  
 
-$ mkdir flask_compose_microservice
-$ cd flask_compose_microservice
+$ mkdir flask_compose_microservice  
+$ cd flask_compose_microservice  
 
-Files to be created in the directory
-├── app.py
-├── docker-compose.yml
-├── Dockerfile
-├── README.md
-├── requirements.txt
-└── templates
+Files to be created in the directory  
+├── app.py  
+├── docker-compose.yml  
+├── Dockerfile  
+├── README.md  
+├── requirements.txt  
+└── templates  
 
+- Build and Run the Service using Docker Compose  
+- Run the following command to build the docker image flask_compose_microservice from web directory and deploy it as a service  
 
-- Build and Run the Service using Docker Compose
-- Run the following command to build the docker image flask_compose_microservice from web directory and deploy is as a service
-
-$ docker-compose build
-$ docker-compose up
+$ docker-compose build  
+$ docker-compose up  
 
 ### Accessing the Service
 
